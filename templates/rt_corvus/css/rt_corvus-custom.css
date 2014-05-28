@@ -1,3 +1,13 @@
+/* Fixes Mainbody Positioning */
+.menu-home #rt-main #rt-mainbody {
+	margin: 7px -25px 0 -26px !important;
+}
+/* Fixes Sidebar Positioning */
+.menu-home #rt-main #rt-sidebar-a {
+	margin: 32px 0 0 0 !important;
+}
+
+/* Hide Home Button and show PS.org Icon */
 #rt-header ul.gf-menu li:nth-child(1) .item { 
 	background-image: url("/templates/rt_corvus/images/icons/ps-org-home.png"); 
 	background-repeat: no-repeat; 
@@ -7,3 +17,22 @@
 	border-color:transparent;
 }
  
+ /* Live Chat Modifications */
+ .cometchat_embed_chatrooms {
+ 	border: 1px solid #CCC;
+ }
+
+
+/* Kodeshare Forum BBCode Icon */
+.kodeshare a {
+  background-image: url('/images/project-spark-org/images/ks.png');
+}
+
+/* KodeShare iFrame Settings*/
+.kodeshare { background: #F1F1F1; border: 1px solid #DDD;margin-bottom: 10px; }
+.kodeshare-dark { background: #222; border: 1px solid #000;margin-bottom: 10px; }
+
+/* Under Construction Image */
+.under-construction {
+	background-image:url('images/Under-Contruction.png');
+}
