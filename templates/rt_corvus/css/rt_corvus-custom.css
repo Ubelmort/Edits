@@ -1,0 +1,9 @@
+#rt-header ul.gf-menu li:nth-child(1) .item { 
+	background-image: url("/templates/rt_corvus/images/icons/ps-org-home.png"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	color:rgba(255, 255, 255, 0);
+	text-shadow:1px 1px 0 rgba(0, 0, 0, 0);
+	border-color:transparent;
+}
+ 
