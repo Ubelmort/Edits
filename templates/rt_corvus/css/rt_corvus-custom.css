@@ -1,11 +1,11 @@
-/* Fixes Mainbody Positioning */
-.menu-home #rt-main #rt-mainbody {
-	margin: 7px -25px 0 -26px !important;
-}
-
 /* Fixes Sidebar Positioning */
 .menu-home #rt-main #rt-sidebar-a {
 	margin: 32px 0 0 0 !important;
+}
+
+/* Fixes Mainbody Positioning */
+.menu-home #rt-main #rt-mainbody {
+	margin: 7px -25px 0 -26px !important;
 }
 
 /* Hide Home Button and show PS.org Icon */
