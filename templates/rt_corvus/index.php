@@ -8,6 +8,10 @@
  * Gantry uses the Joomla Framework (http://www.joomla.org), a GNU/GPLv2 content management system
  *
  */
+
+
+
+
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted index access' );
 
