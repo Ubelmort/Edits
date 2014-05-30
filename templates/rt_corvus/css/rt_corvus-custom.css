@@ -22,6 +22,14 @@
 
 }
 
+.menu-block .gf-menu.l1 > li:nth-child(1){
+	background-image: none !important;
+}
+
+.menu-block .gf-menu.l1 > li:nth-child(1).active{
+	background: none !important;
+}
+
 /* Navigation Theme Items Modifications */
 .menu-block .gf-menu.l1 > li{
 	border-color:transparent transparent transparent rgba(0,0,0,0.2);
@@ -29,6 +37,10 @@
 	-webkit-linear-gradient(top,#48A7DF 0,#2E80CC 100%);background-image:linear-gradient(to bottom,#48A7DF 0,#2E80CC 100%);
 	background-repeat:repeat-x;
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#48a7df',endColorstr='#2e80cc',GradientType=0);
+}
+
+.menu-block .gf-menu.l1 > li.active{
+	background: #0C70B8;
 }
 
 .gf-menu.l1 > li > .item{
