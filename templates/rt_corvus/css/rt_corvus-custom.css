@@ -103,6 +103,39 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	height:44px !important;
 }
 
+/* Kunema Form Restyling */
+#Kunena #ktab ul.menu li.active a, #Kunena #ktab li#current.selected a{
+	background-color: #2E80CC !important;
+}
+
+#Kunena a:link, #Kunena a:visited, #Kunena a:active{
+	color: #2E80CC !important;
+}
+
+#Kunena a:link, #Kunena a:visited, #Kunena a:active, #Kunena a:focus{
+	color: #2E80CC !important
+}
+
+#Kunena div.kblock > div.kheader, #Kunena .kblock div.kheader{
+	background: #2E80CC !important;
+}
+
+#Kunena div.kwhoisonline div.kheader{
+	background: #2E80CC !important;
+}
+
+#Kunena div.kfrontstats div.kheader{
+	background: #2E80CC !important;
+}
+
+#Kunena #ktop span.ktoggler{
+	background-color: #2E80CC !important;
+}
+
+#Kunena #ktop{
+	border-color: #2E80CC !important;
+}
+
  /* Live Chat Modifications */
  .cometchat_embed_chatrooms {
  	border: 1px solid #CCC;
