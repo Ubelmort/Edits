@@ -194,6 +194,6 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .frontpage #ezblog-body .blog-avatar + .blog-content, #ezblog-body .blog-avatar + .profile-basic {
 	margin-left: 0px;
 }
-.frontpage #blog-avatar float-l prel {
+.frontpage #eblog-wrapper .blog-avatar {
 	display: none;
 }
