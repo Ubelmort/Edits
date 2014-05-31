@@ -186,7 +186,7 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 }
 
 /* Hide Blog Header on Featured Home Page */
-.frontpage .ezblog-head {
+.frontpage #ezblog-head {
 	display:none;
 }
 
