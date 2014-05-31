@@ -155,3 +155,9 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .under-construction {
 	background-image:url('images/Under-Contruction.png');
 }
+
+/* Hide Blog Header on Featured Home Page */
+#frontpage.ezblog-head {
+	display:none;
+}
+
