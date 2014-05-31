@@ -72,7 +72,6 @@ body div#fd.es .es-toolbar .navbar-inner{
 	background-repeat:repeat-x;
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6baee2',endColorstr='#ff699ed4',GradientType=0);
 	box-shadow:none;
-<<<<<<< HEAD
 }
 
 body div#fd.es .es-toolbar .fd-navbar-search .search-query{
@@ -104,9 +103,6 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	height:44px !important;
 }
 
-=======
-}
-
 body div#fd.es .es-toolbar .fd-navbar-search .search-query{
 	color:white;
 	position:relative;
@@ -136,7 +132,6 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	height:44px !important;
 }
 
->>>>>>> 254dab95bd5c7d9bb26e366c9ef39919be43d10c
 /* Kunema Form Restyling */
 #Kunena #ktab ul.menu li.active a, #Kunena #ktab li#current.selected a{
 	background-color: #2E80CC !important;
@@ -193,9 +188,5 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 /* Hide Blog Header on Featured Home Page */
 #frontpage.ezblog-head {
 	display:none;
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> 254dab95bd5c7d9bb26e366c9ef39919be43d10c
