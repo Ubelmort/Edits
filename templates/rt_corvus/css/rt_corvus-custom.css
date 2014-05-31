@@ -189,4 +189,6 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .frontpage #ezblog-head {
 	display:none;
 }
-
+.frontpage #ezblog-section {
+	display: none;
+}
