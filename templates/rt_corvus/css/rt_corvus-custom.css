@@ -190,3 +190,10 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	display:none;
 }
 
+/* Hide Featured Blogger, Date, Cat, and other */
+.frontpage #ezblog-body .blog-avatar + .blog-content, #ezblog-body .blog-avatar + .profile-basic {
+	margin-left: 0px;
+}
+.frontpage #blog-avatar float-l prel {
+	display: none;
+}
