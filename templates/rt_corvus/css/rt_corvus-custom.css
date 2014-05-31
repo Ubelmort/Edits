@@ -198,3 +198,8 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 #rt-body-surround > div:first-child .rt-container {
 	padding-top:0px;
 }
+
+/* Removed the red Featured Tag on the front page */
+.frontpage .tag-featured {
+	display: none;
+}
