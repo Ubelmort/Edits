@@ -192,3 +192,9 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .frontpage #ezblog-section {
 	display: none;
 }
+
+/* Changed the Padding for Main Container from 15px to 0px */
+/* Due to having a Gap from our new Icon */
+#rt-body-surround > div:first-child .rt-container {
+	padding-top:0px;
+}
