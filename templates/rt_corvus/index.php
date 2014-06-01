@@ -57,7 +57,7 @@ if ($gantry->get('loadtransition')) {
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
-          e.class = 'livechathide';
+          e.className = 'livechathide';
        else
           e.style.display = 'block';
     }
