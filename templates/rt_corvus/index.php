@@ -56,13 +56,12 @@ if ($gantry->get('loadtransition')) {
 <!--
     function toggle_visibility(id) {
        var e = document.getElementById(id);
-       var c2 = document.getElementById('livechat2');
        if(e.style.display == 'block')
           e.style.display = 'none';
-          c2.style.display = 'block';
+          document.getElementById('livechat2').style.display = 'block';
        else
           e.style.display = 'block';
-          c2.style.display = 'none';
+          document.getElementById('livechat2').style.display = 'none';
     }
 //-->
 </script>
