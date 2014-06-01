@@ -58,10 +58,8 @@ if ($gantry->get('loadtransition')) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
           e.style.display = 'none';
-          document.getElementById('livechat2').style.display = 'block';
        else
           e.style.display = 'block';
-          document.getElementById('livechat2').style.display = 'none';
     }
 //-->
 </script>
