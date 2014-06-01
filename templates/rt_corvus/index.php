@@ -56,7 +56,7 @@ if ($gantry->get('loadtransition')) {
 <!--
     function toggle_visibility(id) {
        var e = document.getElementById(id);
-       if(e.style.border == '1px')
+       if(e.style.border == '2px')
           e.style.display = 'block';
           e.style.paddingLeft = '85px';
        else
