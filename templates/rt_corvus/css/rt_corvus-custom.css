@@ -13,9 +13,9 @@
 	background-image: url("/templates/rt_corvus/images/icons/ps-org-home.png"); 
 	background-repeat: no-repeat; 
 	background-position: center;
-	width: 67px;
+	width: 66px;
 	height: 51px;
-	margin: 0 -1px 5px -1px;
+	margin: 0 -1px 5px 0px;
 	color:rgba(255, 255, 255, 0);
 	text-shadow:1px 1px 0 rgba(0, 0, 0, 0);
 	border-color:transparent;
@@ -27,6 +27,10 @@
 }
 
 .menu-block .gf-menu.l1 > li:nth-child(1).active{
+	background: none !important;
+}
+
+.menu-block .gf-menu.l1 > li:hover:nth-child(1){
 	background: none !important;
 }
 
