@@ -56,8 +56,10 @@ if ($gantry->get('loadtransition')) {
 <!--
     function toggle_visibility(id) {
        var e = document.getElementById(id);
+       var eC = document.getElementsByClassName('cometchat_embed_chatrooms')
        if(e.style.display == 'block')
-          e.className = '.livechathide';
+          e.style.display = 'block';
+          e.style.padding-left = '85px';
        else
           e.style.display = 'block';
     }
