@@ -57,8 +57,7 @@ if ($gantry->get('loadtransition')) {
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'flex')
-          e.style.display = 'block';
-          e.style.paddingLeft = '85px';
+          e.style.display = 'none';
        else
           e.style.display = 'block';
     }
