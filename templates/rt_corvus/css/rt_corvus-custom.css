@@ -272,3 +272,8 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .menu-home #rt-main #rt-mainbody:before {
  	border-width: 0 0 0 0 !important;
 }
+
+/* Background Color of Main Body */
+.main-template-with-shadow #rt-showcase .rt-container, .main-template-with-shadow #rt-feature .rt-container, .main-template-with-shadow #rt-utility .rt-container, .main-template-with-shadow #rt-maintop .rt-container, .main-template-with-shadow #rt-mainbody-surround .rt-container, .main-template-with-shadow #rt-mainbottom .rt-container, .main-template-with-shadow #rt-extension .rt-container {
+	background-color: #f2f2f2;
+}
