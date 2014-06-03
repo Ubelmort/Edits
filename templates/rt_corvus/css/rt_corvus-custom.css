@@ -254,7 +254,7 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	box-shadow: none;
 }
 
-/* Top left Tri on Main Body */
+/* Top left Tri on Featured Section */
 .menu-home #rt-feature:before {
 	position: absolute;
 	content: "";
@@ -268,3 +268,8 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	z-index: 1;
 }
 
+/* Remove Tri from Main Body */
+.menu-home #rt-main #rt-mainbody:before {
+	border-style: none;
+ 	border-width: none;
+}
