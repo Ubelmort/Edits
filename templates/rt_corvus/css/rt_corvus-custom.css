@@ -76,6 +76,7 @@ body div#fd.es .es-toolbar .navbar-inner{
 	background-repeat:repeat-x;
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6baee2',endColorstr='#ff699ed4',GradientType=0);
 	box-shadow:none;
+	margin-left:-83px;
 }
 
 body div#fd.es .es-toolbar .fd-navbar-search .search-query{
@@ -301,3 +302,4 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 {
 	padding: 0px 10px 0px 40px !important;
 }
+
