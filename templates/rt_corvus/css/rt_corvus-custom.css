@@ -302,4 +302,7 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 {
 	padding: 0px 10px 0px 40px !important;
 }
+#eblog-wrapper.eblog-origami .blog-meta {
+	width:46px !important;
+}
 
