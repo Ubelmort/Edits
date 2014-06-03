@@ -137,6 +137,8 @@ if ($gantry->get('loadtransition')) {
 						<?php /** Begin Main Body **/ ?>
 						<div id="rt-mainbody-surround">
 							<div class="rt-container">
+								<?php echo $gantry->displayModules('maintop','standard','standard'); ?>
+								<div class="clear"></div>
 								<?php echo $gantry->displayMainbody('mainbody','sidebar','standard','standard','standard','standard','standard'); ?>
 							</div>
 							<?php /** End Main Body **/ ?>
