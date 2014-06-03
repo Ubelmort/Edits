@@ -253,3 +253,18 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
+
+/* Top left Tri on Main Body */
+.menu-home #rt-feature:before {
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 80px 80px 0 0;
+	border-color: rgba(0,0,0,0.1) transparent transparent transparent;
+	z-index: 1;
+}
+
