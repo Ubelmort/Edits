@@ -277,3 +277,27 @@ body div#fd.es .es-toolbar .fd-navbar-search{
 .main-template-with-shadow #rt-showcase .rt-container, .main-template-with-shadow #rt-feature .rt-container, .main-template-with-shadow #rt-utility .rt-container, .main-template-with-shadow #rt-maintop .rt-container, .main-template-with-shadow #rt-mainbody-surround .rt-container, .main-template-with-shadow #rt-mainbottom .rt-container, .main-template-with-shadow #rt-extension .rt-container {
 	background-color: #f2f2f2;
 }
+
+/** EB Front Page **/
+#ezblog-body .blog-header
+{
+	margin: -15px 0 3px !important;
+}
+#ezblog-body .blog-post .blog-title, #ezblog-body .blog-post .blog-title a
+{
+	margin-bottom: 0px !important;
+}
+#ezblog-posts .eb-photos
+{
+	margin:0 -10px 3px -40px;
+}
+#eblog-dialog .mtl, #eblog-wrapper .mtl
+{
+	margin-top: -30px;
+	position: relative;
+	float: right;
+}
+#eblog-wrapper.eblog-origami #ezblog-body .blog-post
+{
+	padding: 0px 10px 0px 40px !important;
+}
