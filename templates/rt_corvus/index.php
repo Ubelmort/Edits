@@ -102,7 +102,10 @@ if ($gantry->get('loadtransition')) {
 							</div>
 						</div>
 						<?php /** End Showcase **/ endif; ?>			
-						<?php /** Begin Feature **/ if ($gantry->countModules('feature')) : ?>
+						<?php /** Begin Main Body **/ ?>
+						<div id="rt-mainbody-surround">
+							<div class="rt-container">
+			<?php /** Begin Feature **/ if ($gantry->countModules('feature')) : ?>
 						<div id="rt-feature">
 							<div class="rt-container">
 								<?php echo $gantry->displayModules('feature','standard','standard'); ?>
@@ -134,11 +137,6 @@ if ($gantry->get('loadtransition')) {
 							</div>
 						</div>
 						<?php /** End Main Top **/ endif; ?>
-						<?php /** Begin Main Body **/ ?>
-						<div id="rt-mainbody-surround">
-							<div class="rt-container">
-								<?php echo $gantry->displayModules('maintop','standard','standard'); ?>
-								<div class="clear"></div>
 								<?php echo $gantry->displayMainbody('mainbody','sidebar','standard','standard','standard','standard','standard'); ?>
 							</div>
 							<?php /** End Main Body **/ ?>
