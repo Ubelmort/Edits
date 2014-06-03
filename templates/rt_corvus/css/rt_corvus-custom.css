@@ -35,6 +35,15 @@
 }
 
 /* Navigation Theme Items Modifications */
+.menu-block{
+	float: none;
+	margin: -1px 0px 0px -1px;
+}
+
+.menu-block .gf-menu .item, .menu-block .gf-menu.l1 > li.parent > .item:after{
+	color: #fff;
+}
+
 .menu-block .gf-menu.l1 > li{
 	border-color:transparent transparent transparent rgba(0,0,0,0.2);
 	background-image:linear-gradient(to bottom,#48A7DF 0,#2e80cc 100%);
@@ -50,7 +59,7 @@
 .gf-menu.l1 > li > .item{
 	font-size:14px;
 	line-height:24px;
-	padding:8px 12px;
+	padding:8px 11.1px;
 	position:relative;
 	border-radius:0;
 }
@@ -65,8 +74,8 @@
 /* Navigation EasySocial Items Modifications */
 body div#fd.es .es-toolbar .navbar-inner{
 	position:relative;
-	min-height:44px !important;
-	height:44px !important;
+	min-height:45px !important;
+	height:45px !important;
 	padding-left:0;
 	padding-right:0;
 	margin-top:-1px;
