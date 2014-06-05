@@ -9,6 +9,15 @@
 }
 
 /* Hide Home Button and show PS.org Icon */
+.rt-logo{
+	background-image: url("/templates/rt_corvus/images/icons/ps-org-logo.png"); 
+	background-repeat: no repeat;
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+	width: 475px;
+	height: 33px;
+}
+
 #rt-header ul.gf-menu li:nth-child(1) .item { 
 	background-image: url("/templates/rt_corvus/images/icons/ps-org-home.png"); 
 	background-repeat: no-repeat; 

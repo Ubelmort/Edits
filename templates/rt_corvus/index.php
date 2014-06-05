@@ -78,6 +78,7 @@ if ($gantry->get('loadtransition')) {
 				<?php /** End Drawer **/ endif; ?>
 				<?php /** Begin Top **/ if ($gantry->countModules('top')) : ?>
 				<div id="rt-top">
+					<div class="rt-logo">&nbsp;</div>
 					<div class="rt-container">
 						<?php echo $gantry->displayModules('top','standard','standard'); ?>
 						<div class="clear"></div>
