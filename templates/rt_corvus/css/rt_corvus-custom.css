@@ -135,6 +135,14 @@ body div#fd.es .es-toolbar .fd-nav>li>a [class^="ies-"], body div#fd.es .es-tool
 	line-height: 20px !important;
 }
 
+body div#fd.es .btn-es-primary, body div#fd.es .btn-es-primary:focus{
+	background-color: 2E80CC !important;
+	border-color: 2E80CC !important;
+}
+
+body div#fd.es .btn-es-primary:focus.active{
+	background-color:#2E80CC !important;
+	border-color:#2E80CC !important;
 
 /* Kunema Form Restyling */
 #Kunena #ktab ul.menu li.active a, #Kunena #ktab li#current.selected a{
