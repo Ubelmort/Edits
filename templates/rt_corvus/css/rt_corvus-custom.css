@@ -51,10 +51,7 @@
 
 .menu-block .gf-menu .item, .menu-block .gf-menu.l1 > li.parent > .item:after{
 	color: #fff;
-}
-
-.gf-menu .item {
-	text-shadow:0px 0px 0 #ffffff;
+	text-shadow:0 0 0;
 }
 
 .menu-block .gf-menu.l1 > li{
