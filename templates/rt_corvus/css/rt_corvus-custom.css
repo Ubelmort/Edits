@@ -316,11 +316,11 @@ body div#fd.es .btn-es-primary:focus.active{
 }
 
 /* Remove View All Members on Front page */
-.frontpage body div#fd .fd-small {
+body div#fd .fd-small {
 	display:none !important;
 }
 
-.frontpage body div#fd.es.mod-es-users .widget-list-grid {
+body div#fd.es.mod-es-users .widget-list-grid {
 	padding-top: 5px !important;
 	padding-bottom: 5px !important;
 	padding-left: 80px !important;
