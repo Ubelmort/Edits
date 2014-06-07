@@ -316,12 +316,18 @@ body div#fd.es .btn-es-primary:focus.active{
 }
 
 /* Remove View All Members on Front page */
-body div#fd .fd-small {
-	display:none !important;
-}
 
 body div#fd.es.mod-es-users .widget-list-grid {
 	padding-top: 5px !important;
 	padding-bottom: 5px !important;
 	padding-left: 80px !important;
+}
+/* Social Buttons Background */
+div.hide-all-users-link {
+	display:none;
+}
+div#discuss-wrapper #dc_share .social-button 
+{
+	background: none;
+	padding: 0;
 }
