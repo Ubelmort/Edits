@@ -53,6 +53,10 @@
 	color: #fff;
 }
 
+.gf-menu .item {
+	text-shadow:0px 0px 0 #ffffff;
+}
+
 .menu-block .gf-menu.l1 > li{
 	border-color:transparent transparent transparent rgba(0,0,0,0.2);
 	background-image:linear-gradient(to bottom,#48A7DF 0,#2e80cc 100%);
