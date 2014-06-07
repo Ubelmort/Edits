@@ -1,0 +1,13 @@
+body div#fd.es .btn-es-primary,body div#fd.es .btn-es-primary:focus{
+	color:#fff !important;
+	background-color:#2E80CC !important;
+	border-color:#2E80CC !important;
+}
+body div#fd.es .btn-es-primary:focus.active{
+	background-color:#2E80CC;
+	border-color:#2E80CC;
+}
+body div#fd.es .btn-es-primary .badge,body div#fd.es .btn-es-primary:focus .badge{
+	color:#2E80CC;
+	background-color:#fff;
+}
