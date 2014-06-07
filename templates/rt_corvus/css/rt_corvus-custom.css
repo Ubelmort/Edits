@@ -318,3 +318,13 @@ body div#fd.es .btn-es-primary:focus.active{
 	width:46px !important;
 }
 
+/* Remove View All Members on Front page */
+.frontpage body div#fd .fd-small {
+	display:none;
+}
+
+.frontpage body div#fd.es.mod-es-users .widget-list-grid {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 80px;
+}
