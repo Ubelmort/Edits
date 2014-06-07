@@ -23,8 +23,8 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 <!doctype html>
 <html xml:lang="<?php echo $gantry->language; ?>" lang="<?php echo $gantry->language;?>" >
 <head>
-	<link type="text/css" href="/cometchat/cometchatcss.php" rel="stylesheet" charset="utf-8">
-<script type="text/javascript" src="/cometchat/cometchatjs.php" charset="utf-8"></script>
+	<link type="text/css" href="/livechat/cometchatcss.php" rel="stylesheet" charset="utf-8">
+<script type="text/javascript" src="/livechat/cometchatjs.php" charset="utf-8"></script>
 	<?php if ($gantry->get('layout-mode') == '960fixed') : ?>
 	<meta name="viewport" content="width=960px">
 <?php elseif ($gantry->get('layout-mode') == '1200fixed') : ?>
