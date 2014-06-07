@@ -42,7 +42,7 @@ ob_start();
 						<img src="<?php echo $app->getCfg('offline_image'); ?>" alt="<?php echo htmlspecialchars($app->getCfg('sitename')); ?>" />
 						<?php endif; ?>
 					</div>
-					<div style="margin-top: 6px;"><iframe src="/cometchat/modules/chatrooms/index.php?id=1" width="100%" height="300" class="cometchat_embed_chatrooms" name="cometchat_chatrooms_iframe"></iframe></div>
+					 <div style="margin-top: 6px;"><iframe src="/cometchat/modules/chatrooms/index.php?id=1" width="100%" height="300" class="cometchat_embed_chatrooms" name="cometchat_chatrooms_iframe"></iframe></div>
 
 					<div class="rt-block">
 						<div class="table">
