@@ -25,6 +25,7 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 <head>
 	<link type="text/css" href="/livechat/cometchatcss.php" rel="stylesheet" charset="utf-8">
 <script type="text/javascript" src="/livechat/cometchatjs.php" charset="utf-8"></script>
+	<script src="/js/kodeshare.js" type="text/javascript"></script>
 	<?php if ($gantry->get('layout-mode') == '960fixed') : ?>
 	<meta name="viewport" content="width=960px">
 <?php elseif ($gantry->get('layout-mode') == '1200fixed') : ?>
