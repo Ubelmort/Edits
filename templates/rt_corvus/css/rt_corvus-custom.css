@@ -337,3 +337,7 @@ div#discuss-wrapper #dc_share .social-button
 	background: none;
 	padding: 0;
 }
+/*Tempt fix for Images on Stream */
+body div#fd.es .es-photo > a.fit-both img {
+    max-height: 100% !important;
+}
