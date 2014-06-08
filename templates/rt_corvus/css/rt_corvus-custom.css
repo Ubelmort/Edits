@@ -227,6 +227,12 @@ body div#fd.es .btn-es-primary:focus.active{
 	margin:0px 0px;
 	height:22px;
 }
+@-moz-document url-prefix() {
+    .rt-expanded-1:before  { 
+    	margin-top: -43px; 
+    }
+}
+
 .rt-expanded-1:after {
 	margin-left:20px;
 	border-width:42px 71px 0 0;
